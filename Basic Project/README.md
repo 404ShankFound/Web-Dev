@@ -5,7 +5,7 @@ Objective:<br>
 To build a basic webpage using only HTML to demonstrate foundational web development skills. <br>
 
 <p>
-✅ HTML Practice Tasks:<br>
+🌐 HTML Practice Tasks:<br>
 Build a basic webpage using only HTML that includes:<br>
 - A heading with your name<br>
 - short paragraph about yourself<br>
