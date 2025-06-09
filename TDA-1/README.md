@@ -23,7 +23,7 @@ Build a basic webpage using only HTML that includes:
 <p><strong>Objective:</strong><br>
 To enhance a basic webpage using CSS to demonstrate foundational styling skills and improve visual appearance.</p>
 
-<p>🧪 CSS Practice Tasks:<br>
+<p>🎨🖌️ CSS Practice Tasks:<br>
 Create a new HTML file and apply CSS to style its contents. Use either internal &lt;style&gt; tags or link to an external stylesheet.</p>
 
 <ul>
@@ -34,4 +34,21 @@ Create a new HTML file and apply CSS to style its contents. Use either internal 
 <li>📏 Add <strong>borders</strong> to selected elements like divs or paragraphs</li>
 <li>🧭 <strong>Center content</strong> using CSS (e.g., <code>text-align</code> or <code>margin</code>)</li>
 <li>🔤 Use a variety of <strong>font sizes and colors</strong> to emphasize different parts of content</li>
+</ul>
+
+
+## Project3: Combined- Mini Portfolio Page
+<p><strong>Objective:</strong><br>
+To build a basic personal portfolio webpage using both HTML and CSS, demonstrating your ability to structure content and apply custom styling.</p>
+
+<p>🛠️ Task Requirements:<br>
+Use HTML to create the content and CSS to style it. Your goal is to create a visually appealing mini-portfolio that showcases basic personal info and project sections.</p>
+
+<ul>
+<li>👤 A heading with <strong>your name</strong> and a <strong>short introduction</strong></li>
+<li>🖼️ A <strong>profile image</strong> (either from a link or local file)</li>
+<li>🎯 A section listing your <strong>hobbies or interests</strong> (can be in list form)</li>
+<li>📂 A <strong>“Projects” section</strong> – can include placeholder project names</li>
+<li>📊 A <strong>table of skills</strong> or tools you want to learn</li>
+<li>🎨 <strong>Clean and personalized CSS styling</strong> for layout, fonts, colors, and spacing</li>
 </ul>
