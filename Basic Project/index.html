@@ -1,46 +1,75 @@
 <!DOCTYPE html>
-<html lang="en"
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inside My Universe🌎</title>
-    <style>
-        .header-container {
-          display: flex;
-          align-items: center;
-          gap: 15px; /* spacing between image and text */
-        }
-        
-      </style>
-</head>
-<!--Tasks not to be done:
-- table showing your weekly schedule or favorite books/movies
-- hyperlink to your favorite website
-- One sentence using subscript (like H₂O) and superscript (like E = mc²)-->
-<body>
-    <div style="display: flex; align-items: center;justify-content: space-between;">
-    <h1>Shashank <br>Nandan</h1>
-</div>
-    <hr>
-    <h3>About Me</h3>
-    <div style="display: flex; align-items: center;justify-content: space-between;">
-    <p>
-    I’m Shashank Nandan, born and brought up in the steel city of Bokaro, Jharkhand. I’ve always found joy in exploring new places and cultures, which has shaped my love for travelling. A true movie enthusiast at heart, I find stories—whether in films or web series—fascinating, and yes, I proudly carry the skill of finishing an entire web series in a day! I'm someone who enjoys blending creativity with curiosity, and I’m always eager to learn, connect, and experience life beyond the pages of textbooks.<br>
-    Academically, I’m currently pursuing a B.Tech in Information Technology at Manipal Institute of Technology. My interests in programming, data science, and problem solving have led me to gain hands-on experience with Python, Java, and C. 
-    </p>  
-    <a href="https://www.linkedin.com/in/shashanknandan">
-        <img src="images/BLAZERWHITEBG.jpg" alt ="profile picture"
-        style="width:200px; height:200px; border-radius:50%; border:4px solid hsl(57, 94%, 50%); object-fit: cover; display:inline"/>
-    </a>
-    </div> 
-    <ol>My Hobbies:
-        <li>Learning coding & programming</li>
-        <li>Exploring new technologies</li>
-        <li>Travelling to new places</li>
-        <li>Binge-watching tutorials I’ll never finish</li>
-        <li>Trying to remember why I walked into a room</li>
-        <li>Creating elaborate plans that end with snacks</li>
-    </ol>  
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Inside My Universe🌎</title>
+  <style>
+    .responsive-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
 
+    .text-content {
+      flex: 1 1 300px;
+      min-width: 250px;
+    }
+
+    .profile-img {
+      display: inline-flex;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 4px solid hsl(57, 94%, 50%);
+      object-fit: cover;
+      margin-top: 20px;
+    }
+
+    @media (max-width: 300px) {
+      .responsive-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .profile-img {
+        align-self: center;
+        justify-content: center;
+        margin-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Shashank <br />Nandan</h1>
+  <hr />
+  <h3 style="margin-bottom: 0%">About Me</h3>
+
+  <div class="responsive-container">
+    <div class="text-content">
+      <p>
+        With 70% of me made of H<sub>2</sub>O, the rest must be pure E=mc<sup>2</sup>—energy in motion!<br />
+        I’m Shashank Nandan, born and brought up in the steel city of Bokaro, Jharkhand. I’ve always found joy in exploring new places and cultures, which has shaped my love for travelling. A true movie enthusiast at heart, I find stories—whether in films or web series—fascinating, and yes, I proudly carry the skill of finishing an entire web series in a day! I'm someone who enjoys blending creativity with curiosity, and I’m always eager to learn, connect, and experience life beyond the pages of textbooks.<br />
+        Academically, I’m currently pursuing a B.Tech in Information Technology at Manipal Institute of Technology. My interests in programming, data science, and problem solving have led me to gain hands-on experience with Python, Java, and C.
+      </p>
+    </div>
+    <a href="https://www.linkedin.com/in/shashanknandan">
+      <img src="images/BLAZERWHITEBG.jpg" alt="profile picture" class="profile-img" />
+    </a>
+  </div>
+
+  <ol style="padding-left: 0%; margin-left: 2%;"><strong>My Hobbies:</strong>
+    <li>Learning coding & programming</li>
+    <li>Exploring new technologies</li>
+    <li>Travelling to new places</li>
+    <li>Binge-watching tutorials I’ll never finish</li>
+    <li>Trying to remember why I walked into a room</li>
+    <li>Creating elaborate plans that end with snacks</li>
+  </ol>
+
+  <a href="https://slcm.manipal.edu/" target="_blank">My favorite website</a>
 </body>
 </html>
